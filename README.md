@@ -1,12 +1,10 @@
 # Week 4 Assignment: Grades, Eligibility & Smart Decisions
 
-This repository contains five Python programs:
+This repository contains three Python programs:
 
-- **grade_classifier.py** — Classifies scores into grades A–F with validation.  
-- **eligibility_checker.py** — Determines coding club eligibility using age and parental consent, refactored to use compound boolean operators (`and`, `or`) for clearer logic.  
-- **atm_menu.py** — Simulates an ATM with PIN check and withdrawal logic.  
 - **welcome.py** — Prints greetings using a reusable function instead of repeating code.  
-- **toolbox.py** — A mini toolbox with three functions: `double`, `is_pass`, and `greet`.
+- **toolbox.py** — A mini toolbox with three functions: `double`, `is_pass`, and `greet`.  
+- **README.md** — Assignment description and reflection.
 
 ### Reflection
-The most challenging part was refining `eligibility_checker.py`. At first, I relied on nested if‑else blocks, but after feedback I refactored it to use compound boolean operators. This made the code shorter, easier to read, and more efficient. I also learned that using `elif` is better than separate `if` statements when conditions are mutually exclusive, since it ensures only one branch executes and avoids redundant checks.
+The hardest function to write was `greet` in `toolbox.py`, because it needed to handle both a default greeting and a custom one. It taught me how to use default parameter values effectively, making the function flexible and reusable.
